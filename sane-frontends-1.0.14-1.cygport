@@ -1,0 +1,5 @@
+DESCRIPTION="Scanner Access Now Easy frontends"
+HOMEPAGE="http://www.sane-project.org/"
+SRC_URI="ftp://ftp.sane-project.org/pub/sane/${P}/${P}.tar.gz"
+
+CYGCONF_ARGS="--with-docdir=/usr/share/doc/${P}"

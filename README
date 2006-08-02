@@ -1,0 +1,73 @@
+sane-frontends
+------------------------------------------
+SANE stands for Scanner Access Now Easy.
+This package contains several SANE frontends.
+
+Runtime requirements:
+  cygwin-1.5.21-1
+  gimp2-2.2.12-1
+  gtk2-x11-2.8.20-1
+  libsane1-1.0.18-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.21-1
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.2.4-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.22-1
+  make-3.81-1
+  pkg-config-0.20-1
+  sed-4.1.5-1
+
+Canonical website:
+  http://www.sane-project.org/
+
+Canonical download:
+  ftp://ftp.sane-project.org/pub/sane/
+
+-------------------------------------------
+
+Build instructions:
+  unpack sane-frontends-1.0.14-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./sane-frontends-1.0.14-X.cygport all
+
+This will create:
+  /usr/src/sane-frontends-1.0.14-X-src.tar.bz2
+  /usr/src/sane-frontends-1.0.14-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/scanadf.exe
+  /usr/bin/xcam.exe
+  /usr/bin/xscanimage.exe
+  /usr/share/doc/Cygwin/sane-frontends-1.0.14.README
+  /usr/share/doc/sane-frontends-1.0.14/AUTHORS
+  /usr/share/doc/sane-frontends-1.0.14/COPYING
+  /usr/share/doc/sane-frontends-1.0.14/ChangeLog
+  /usr/share/doc/sane-frontends-1.0.14/INSTALL
+  /usr/share/doc/sane-frontends-1.0.14/NEWS
+  /usr/share/doc/sane-frontends-1.0.14/README
+  /usr/share/man/man1/scanadf.1.gz
+  /usr/share/man/man1/xcam.1.gz
+  /usr/share/man/man1/xscanimage.1.gz
+  /usr/share/sane/sane-style.rc
+
+------------------
+
+Port Notes:
+
+----- version 1.0.14-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

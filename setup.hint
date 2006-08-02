@@ -1,0 +1,5 @@
+category: Graphics
+requires: cygwin libsane1 gimp2 gtk2-x11
+sdesc: "Scanner Access Now Easy (frontends)"
+ldesc: "SANE stands for Scanner Access Now Easy.
+This package contains several SANE frontends"
